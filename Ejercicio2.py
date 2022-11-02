@@ -29,7 +29,7 @@ def menu():
             print("Invalid option")
 
 def employeeEntry(name = ''):
-    newString = str(print(asctime()," - ",name," - Entry"))
+    newString = str((f"{asctime()} - {name} - Entry"))
     return newString
     
 
